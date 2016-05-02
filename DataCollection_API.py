@@ -39,10 +39,10 @@ def feedPreparation(fileName,criteria):
 def get_results(params):
     
     #Obtain these from Yelp's manage access page
-    consumer_key = "6EVLLkP31cf55r3F0zeuDA"
-    consumer_secret = "r5TQm3D_v2b9x7e4tC1d_tJ7DD0"
-    token = "qRVZ28oJtf5O0v-S8y6EE7eDJb3A7tay"
-    token_secret = "tTZMooAHdXyK12JbqfiMvBRxtDk"
+    consumer_key = "****"
+    consumer_secret = "****"
+    token = "****"
+    token_secret = "****"
     
     session = rauth.OAuth1Session(
                                   consumer_key = consumer_key
