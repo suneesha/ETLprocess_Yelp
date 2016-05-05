@@ -29,7 +29,7 @@ def loadData():
 def createTable():
     global cnx
     cursor = cnx.cursor()
-    query = "CREATE TABLE YELPFEED(                                    name varchar(255),                                    Rating FLOAT,                                    review_count INT,                                    category_labels varchar(255),                                    address varchar(255),                                    latitude FLOAT,                                    longitude FLOAT,                                    searchtag varchar(255))"
+    query = "CREATE TABLE YELPFEED(name varchar(255),Rating FLOAT,review_count INT,category_labels varchar(255), address varchar(255),latitude FLOAT,longitude FLOAT,searchtag varchar(255))"
     cursor.execute(query)
     cursor.close()
     cnx.commit()
