@@ -1,5 +1,4 @@
-# FundingCircleCodeChallenge
-Perform ETL process on the Yelp API
+# Perform ETL process on the Yelp API
 
 Author : Suneesha Kudipudi
 
